@@ -1,0 +1,62 @@
+# ========================
+# 🚫 Archivos generales
+# ========================
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos temporales y cachés
+dist/
+build/
+.cache/
+.vite/
+.env.local
+.env.development.local
+.env.production.local
+
+# Variables de entorno
+.env
+backend/.env
+frontend/.env
+
+# ========================
+# ⚙️ Frontend (Vite + React)
+# ========================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.eslintcache
+
+# ========================
+# ⚙️ Backend (Express + Puppeteer)
+# ========================
+backend/node_modules/
+backend/logs/
+backend/tmp/
+backend/.cache/
+backend/debug.log
+
+# Puppeteer downloads (Chromium)
+backend/.local-chromium/
+backend/chrome/
+
+# ========================
+# 🧰 Sistema operativo y VS Code
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ========================
+# 🔐 Otros archivos sensibles
+# ========================
+*.pem
+*.key
+*.crt
+*.p12
+*.env*
